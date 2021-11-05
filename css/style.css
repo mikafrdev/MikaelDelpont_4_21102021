@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000;
 }
 
 .container {
@@ -692,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -780,7 +780,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1039,4 +1039,29 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*Optimisations*/
+h3 {
+    line-height: 1.5;   /* Optimisation pour les malvoyants et dyslexiques */
+}
+
+.link_contact {
+    font-size: 17px;
+}
+
+.liens-footer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.liens-footer li {
+}
+
+
+.liens-footer__partenaires {
+
 }
