@@ -5,8 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}bootstrap
-
+}
 
 a,
 button {
@@ -25,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -92,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("../img/texture-paper.png");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -289,7 +288,6 @@ a:hover {
 }
 
 .navbar {
-    /*height: 50px;*/
     margin-bottom: 0;
     z-index: 1;
 }
@@ -653,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000;
+    color: #575757!important;
 }
 
 .container {
@@ -694,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #000;
+    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -742,7 +740,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin: auto auto 24px auto;
+    margin-bottom: 24px;
 }
 
 .portfolio-row {
@@ -782,12 +780,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #000;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956;
-    color: #000;
+    background: #c27956!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white {
@@ -812,19 +810,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("../img/dots-bg.png");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("../img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("../img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -1041,42 +1039,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
-
-/*Optimisations*/
-
-h3 {
-    line-height: 1.5;   /* Optimisation pour les malvoyants et dyslexiques */
-}
-
-.l-bloc .navbar a {
-    text-decoration: underline;
-    color: #000;
-}
-
-nav ul li a:hover {
-    color: #000;
-}
-
-nav ul li.active {
-    padding: 10px 15px 10px 30px;
-    margin-top: 10px;
-    line-height: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    cursor: default;
-    color: #000;
-}
-
-.link_contact {
-    font-size: 17px;
-}
-
-.bg-orange {
-    background-color: #F3976C;
-    opacity: 20%;
-}
-
-.bg-orange > h2 {
-    opacity: 100%;
 }
