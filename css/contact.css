@@ -1045,7 +1045,7 @@ nav ul li.active {
     color: #000;
 }
 
-.font_up, label, p {
+.font_up, label {
     font-size: 16px;
 }
 
