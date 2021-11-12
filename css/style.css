@@ -1003,13 +1003,20 @@ h3 {
     color: #000;
 }
 
+.nav {
+    padding-left: 15px;
+}
+
+.nav > li > a {
+    padding: 10px 0;
+}
+
 nav ul li a:hover {
     color: #000;
 }
 
 nav ul li.active {
     padding: 10px 15px 10px 15px;
-    margin-top: 10px;
     line-height: 20px;
     font-weight: bold;
     text-decoration: none;
