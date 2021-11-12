@@ -1008,7 +1008,7 @@ nav ul li a:hover {
 }
 
 nav ul li.active {
-    padding: 10px 15px 10px 30px;
+    padding: 10px 15px 10px 15px;
     margin-top: 10px;
     line-height: 20px;
     font-weight: bold;
