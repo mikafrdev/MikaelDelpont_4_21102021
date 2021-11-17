@@ -1007,8 +1007,12 @@ h3 {
     padding-left: 15px;
 }
 
-.nav > li > a {
-    padding: 10px 0;
+.nav > li {
+    padding: 10px 15px 10px 15px;
+}
+
+.navbar-nav > li > a {
+    padding: 0;
 }
 
 nav ul li a:hover {
@@ -1016,7 +1020,6 @@ nav ul li a:hover {
 }
 
 nav ul li.active {
-    padding: 10px 15px 10px 15px;
     line-height: 20px;
     font-weight: bold;
     text-decoration: none;
