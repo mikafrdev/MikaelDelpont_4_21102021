@@ -10,8 +10,7 @@ body {
 
 a,
 button {
-    transition: all .3s ease-in-out;
-    outline: none!important;
+    transition: all .3s ease-in-out;    
 }
 
 .bloc {
@@ -314,6 +313,7 @@ h1 {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    /*outline: 1px solid #F3976C;*/
 }
 
 .navbar-toggle {
@@ -1037,4 +1037,17 @@ nav ul li.active {
 
 .d-bloc a .icon-md {
     color: #333;
+}
+
+.form-control:focus {
+    border-color: #F3976C;
+    border-width: 2px;
+}
+
+.btn:focus {
+    border: 2px solid #000;
+}
+
+a.social:hover, a.social:focus {
+    outline: 2px solid #FFF;
 }
