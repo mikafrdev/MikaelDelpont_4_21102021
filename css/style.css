@@ -698,7 +698,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
@@ -750,7 +750,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFF!important;
+    color: #FFF;
 }
 
 .btn-atomic-tangerine {
@@ -998,6 +998,11 @@ h3 {
     line-height: 1.5;   /* Optimisation pour les malvoyants et dyslexiques */
 }
 
+.logo {
+    border: 3px solid #F3976C;
+    border-radius: 50px;
+}
+
 .l-bloc .navbar a {
     text-decoration: underline;
     color: #000;
@@ -1035,6 +1040,10 @@ nav ul li.active {
     background-color: #F3976C;
 }
 
+.clr-orange {
+    color: #F3976C;
+}
+
 .d-bloc a .icon-md {
     color: #333;
 }
@@ -1050,4 +1059,16 @@ nav ul li.active {
 
 a.social:hover, a.social:focus {
     outline: 2px solid #FFF;
+}
+
+.bg-contrast {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    background-color: rgb(48,48,48,.90);
+}
+
+.bloc--pad {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
