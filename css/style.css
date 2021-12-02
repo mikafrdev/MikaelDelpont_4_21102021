@@ -440,7 +440,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    /*outline: none!important;*/
 }
 
 .btn-rd {
@@ -1058,7 +1058,7 @@ nav ul li.active {
 }
 
 a.social:hover, a.social:focus {
-    outline: 2px solid #FFF;
+    /*outline: 2px solid #FFF;*/
 }
 
 .bg-contrast {
@@ -1071,4 +1071,14 @@ a.social:hover, a.social:focus {
 .bloc--pad {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.btn:focus, a:focus, button:focus, .navbar-toggle:focus {
+    cursor: pointer;
+    outline: 2px dashed #353535;
+    outline-offset: 5px;
+}
+
+.white-focus:focus {
+    outline-color:  #FFF;
 }
